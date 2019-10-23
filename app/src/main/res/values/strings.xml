@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Islamic Hero</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="detail">Detail</string>
+    <string name="email_me">halidinnurfitriani98@gmail.com</string>
+    <string name="name_me">Nur Fitriani</string>
+    <string name="call">Call Me</string>
+</resources>

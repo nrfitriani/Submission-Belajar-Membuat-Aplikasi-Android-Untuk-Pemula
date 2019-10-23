@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="About">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_about"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/nurfitriani"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Nur Fitriani"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:text="halidinnurfitriani98@gmail.com"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Any Questions? Please Contact Me"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"/>
+
+    <Button
+        style="@style/ButtonGeneral"
+        android:id="@+id/btn_dial_phone"
+        android:text="@string/call"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        style="@style/ButtonGeneral"
+        android:id="@+id/btn_send_mail"
+        android:text="E-MAil Me"/>
+
+</LinearLayout>
